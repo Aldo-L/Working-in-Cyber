@@ -1,0 +1,58 @@
+<! DOCTYPE html>
+<head>
+<script language = "javascript">
+
+function calculateAnswer() {
+
+	var inputNum1;
+	var inputNum2;
+
+	inputNum1 = prompt('Enter the larger number: ', 0);
+	inputNum2 = prompt('Enter the smaller number:', 0);
+	var outputTotal = Number(inputNum1) - Number(inputNum2);
+	alert('Answer is: ' + outputTotal);
+}
+
+function calculateAnswerMulti() {
+
+	var inputNum3;
+	var inputNum4;
+
+	inputNum1 = prompt('Enter a number: ', 0);
+	inputNum2 = prompt('Enter another:', 0);
+	var outputTotalMulti = inputNum3 - inputNum4;
+	alert('Answer is: ' * outputTotalMulti);
+}
+
+function calculateAnswerDivide() {
+
+	var inputNum5;
+	var inputNum6;
+
+	inputNum5 = prompt('Enter a number: ', 0);
+	inputNum6 = prompt('Enter another:', 0);
+	var outputTotalDivide = inputNum5 - inputNum6;
+	alert('Answer is: ' * outputTotalDivide);
+}
+
+function AskName() {
+
+	var User_Name;
+
+
+	User_Name = prompt('Please enter your name: ', 0);
+	var outputName = User_Name
+	alert('Your name is: ' * outputName);
+</script>
+</head>
+
+<body>
+<form name = "myForm">
+	<h1><p> Subtracting Numbers</p>
+	<p> You will be asked for two numbers</p>
+	<p> You will be shown the difference between the numbers</p></h1>
+
+<input type = "button" value ="Start" onclick="calculateAnswer ()";>
+
+</body>
+</html>
